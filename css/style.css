@@ -13,6 +13,11 @@
     url("//db.onlinewebfonts.com/t/e1ff8ff97ca60a7c87e2feb6635baf1a.svg#a71d6c25f3ffa983 - subset of History Pro 02")
       format("svg");
 }
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -122,11 +127,11 @@
 }
 
 .menu-item:nth-child(7n) {
-  margin-right: 105px;
+  margin-right: 145px;
 }
 
 .menu .icon-nav-item {
-  margin-right: 40px;
+  margin-right: 25px;
 }
 .title {
   padding-top: 180px;
@@ -211,7 +216,7 @@
 .main {
   height: 100vh;
   margin-top: 90px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-left: 108px;
   margin-right: 108px;
 }
@@ -310,6 +315,28 @@
   color: #393939;
   background: #fff;
 }
+.btn-label {
+  border: 1px solid #111113;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 138px;
+  margin-left: 420px;
+  margin-top: 96px;
+}
+.btn-label a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.01em;
+
+  /* Main/90 */
+
+  color: #393939;
+}
 .cart-title-div {
   margin-top: 15px;
 }
@@ -348,4 +375,74 @@
   font-feature-settings: "salt" on, "ss01" on;
 
   color: #bd3735;
+}
+
+.main-cart-item-hero {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-hero {
+  max-width: 720px;
+}
+.section {
+  height: 100vh;
+}
+.title-hero {
+  max-width: 760px;
+  text-align: center;
+
+  font-family: "a71d6c25f3ffa983 - subset of History Pro 02";
+
+  font-size: 36px;
+  line-height: 52px;
+  /* or 144% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.title-main-sec {
+  padding-top: 80px;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cart-sec {
+  margin-top: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-sec img {
+  margin-right: 16px;
+}
+
+.sec-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-nav-item li {
+  margin-top: 42px;
+  margin-right: 92px;
+}
+
+.sec-nav-item li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 160%;
+  /* identical to box height, or 18px */
+
+  letter-spacing: 0.08em;
+
+  color: #000000;
+
+  opacity: 0.7;
 }
