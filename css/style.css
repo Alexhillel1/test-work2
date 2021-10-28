@@ -382,7 +382,9 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.main-cart-item-hero img {
+  display: block;
+}
 .item-hero {
   max-width: 720px;
 }
@@ -445,4 +447,248 @@ body {
   color: #000000;
 
   opacity: 0.7;
+}
+
+.title-main-sec-two {
+  font-family: "a71d6c25f3ffa983 - subset of History Pro 02";
+
+  text-align: center;
+
+  font-size: 40px;
+  line-height: 64px;
+  /* or 144% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.cart-sec-two ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+  margin-bottom: 63px;
+}
+.cart-sec-two ul li {
+  margin-right: 16px;
+}
+.cart-sec-two ul li a img {
+  display: block;
+  width: 351px;
+  height: 352px;
+}
+
+.section-footer {
+  height: 286px;
+}
+
+.logo-footer img {
+  margin-top: 43px;
+  margin-left: 108px;
+}
+.section-footer {
+  position: relative;
+}
+.footer-menu-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 60px;
+  margin-left: 316px;
+
+  align-items: center;
+  justify-content: center;
+}
+.footer-menu-main li:first-child {
+  margin-bottom: 14px;
+}
+.footer-menu-main li:not(:nth-child(1)) {
+  margin-top: 8px;
+}
+
+.footer-menu-main li a {
+  font-family: Apercu Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  font-feature-settings: "salt" on, "ss01" on;
+
+  /* Main/80 */
+
+  color: #666666;
+}
+
+.footer-menu-main li a h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 18px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Main/100 */
+
+  color: #111113;
+}
+
+.footer-menu-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 60px;
+  margin-left: 500px;
+
+  align-items: center;
+  justify-content: center;
+}
+.footer-menu-info li:first-child {
+  margin-bottom: 14px;
+}
+.footer-menu-info li:not(:nth-child(1)) {
+  margin-top: 8px;
+}
+
+.footer-menu-info li a {
+  font-family: Apercu Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  font-feature-settings: "salt" on, "ss01" on;
+
+  /* Main/80 */
+
+  color: #666666;
+}
+
+.footer-menu-info li a h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 18px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Main/100 */
+
+  color: #111;
+}
+
+.footer-menu-company {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 60px;
+  margin-left: 708px;
+
+  align-items: center;
+  justify-content: center;
+}
+.footer-menu-company li:first-child {
+  margin-bottom: 14px;
+}
+.footer-menu-company li:not(:nth-child(1)) {
+  margin-top: 8px;
+}
+
+.footer-menu-company li a {
+  font-family: Apercu Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  font-feature-settings: "salt" on, "ss01" on;
+
+  /* Main/80 */
+
+  color: #666666;
+}
+
+.footer-menu-company li a h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 18px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Main/100 */
+
+  color: #111;
+}
+
+.footer-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 60px;
+  margin-left: 940px;
+
+  align-items: center;
+  justify-content: center;
+}
+.footer-input li h4 {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 18px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Main/100 */
+
+  color: #111;
+}
+
+.footer-input li input {
+  width: 392px;
+  height: 56px;
+  border: 0.8px solid #e5e5e5;
+}
+input::placeholder {
+  color: #b2b2b2;
+  padding-left: 16px;
+}
+
+.footer-input li p {
+  max-width: 380px;
+  margin-top: 16px;
+  font-family: Apercu Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+
+  /* Main/80 */
+
+  color: #666666;
+}
+
+.footer-input li p span {
+  color: #b2b2b2;
+  text-decoration: underline;
 }
